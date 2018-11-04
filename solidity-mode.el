@@ -534,8 +534,8 @@ Cursor must be at the function's name.  Does not currently work for constructors
   (require 'solidity-flycheck))
 
 ;;; --- autcompletion back-end for company-mode, loads if company mode is installed ---
-(when (require 'company nil 'noerror)
-  (require 'company-solidity))
+;;(when (require 'company nil 'noerror)
+;;  (require 'company-solidity))
 
 (provide 'solidity-mode)
 ;;; solidity-mode.el ends here
